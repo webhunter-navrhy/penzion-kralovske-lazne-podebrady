@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penzion Královské lázně, Poděbrady — Útulný penzion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo">Penzion Královské lázně, Poděbrady</a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav__overlay" id="nav-overlay">
+                <ul class="nav__links">
+                    <li><a href="index.html" class="active">Uvod</a></li>
+                    <li><a href="ubytovani.html">Ubytovani</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="okoli.html">Okoli</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero__media" style="background-image: url('img/foto_1.jpg')"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content" data-reveal>
+            <div class="ornament hero-ornament">
+                <span class="ornament__line"></span>
+                <span class="ornament__star">&#10022;</span>
+                <span class="ornament__line"></span>
+            </div>
+            <h1 class="hero__title">Penzion Královské lázně, Poděbrady</h1>
+            <p class="hero__sub">Jřího náměstí 4/5, Poděbrady, 29001</p>
+            <div class="hero__actions">
+                <a href="kontakt.html" class="btn btn--filled" data-magnetic>Rezervovat pobyt</a>
+                <a href="tel:+420 720 974 910" class="btn btn--outline-light" data-magnetic>+420 720 974 910</a>
+            </div>
+        </div>
+        <div class="hero__scroll">
+            <span class="hero__scroll-line"></span>
+            <span class="hero__scroll-dot"></span>
+        </div>
+    </header>
+
+    <!-- ABOUT — Overlapping Layout -->
+    <section class="about" id="about">
+        <span class="section-num">01</span>
+        <div class="container">
+            <div class="about__grid">
+                <div class="about__image-wrap" data-reveal>
+                    <img src="img/foto_2.jpg" alt="Penzion Královské lázně, Poděbrady" loading="lazy">
+                </div>
+                <div class="about__body" data-reveal data-delay="0.15">
+                    <span class="pill-label">O nas</span>
+                    <h2 class="h2">Kde se zastavíte a nadechnete</h2>
+                    <p>Má Penzion Královské lázně v oblasti Nymburk volnou kapacitu? Podívejte se a zamluvte si termín ubytování!</p>
+                    <a href="ubytovani.html" class="link-arrow">Prohlednout pokoje <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE CARDS — Offset Grid -->
+    <section class="features">
+        <div class="container">
+            <div class="features__header" data-reveal>
+                <span class="pill-label">Co nabizime</span>
+                <h2 class="h2">Vse pro vas pohodovy pobyt</h2>
+            </div>
+            <div class="features__grid">
+                <div class="feature-card" data-reveal>
+                    <span class="feature-card__num">01</span>
+                    <h3 class="feature-card__title">Pohodlné pokoje</h3>
+                    <p>Čisté, útulné pokoje s kvalitními postelemi pro ten nejlepší spánek.</p>
+                </div>
+                <div class="feature-card" data-reveal data-delay="0.08">
+                    <span class="feature-card__num">02</span>
+                    <h3 class="feature-card__title">Osobní přístup</h3>
+                    <p>Poradíme vám s výlety, tipy na restaurace i zážitky v okolí.</p>
+                </div>
+                <div class="feature-card" data-reveal data-delay="0.16">
+                    <span class="feature-card__num">03</span>
+                    <h3 class="feature-card__title">Klid a soukromí</h3>
+                    <p>Odpočiňte si od každodenního ruchu v klidném prostředí.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FULL-WIDTH QUOTE -->
+    <section class="quote-section">
+        <div class="quote-section__inner">
+            <div class="ornament ornament--light">
+                <span class="ornament__star">&#10022;</span>
+            </div>
+            <blockquote class="quote-section__text" data-reveal>
+                Odpočinek začíná ve chvíli, kdy překročíte náš práh.
+            </blockquote>
+            <span class="quote-section__attr">— Penzion Královské lázně, Poděbrady</span>
+            <div class="ornament ornament--light">
+                <span class="ornament__star">&#10022;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats-strip">
+        <div class="container">
+            <div class="stats-strip__inner" data-reveal>
+                <div class="stats-strip__item">
+                    <span class="stats-strip__number">10+</span>
+                    <span class="stats-strip__label">let zkusenosti</span>
+                </div>
+                <div class="stats-strip__item">
+                    <span class="stats-strip__number">2 000+</span>
+                    <span class="stats-strip__label">spokojenych hostu</span>
+                </div>
+                <div class="stats-strip__item">
+                    <span class="stats-strip__number">4,9</span>
+                    <span class="stats-strip__label">hodnoceni</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROOMS — Card Stack -->
+    <section class="rooms" id="rooms">
+        <span class="section-num">02</span>
+        <div class="container">
+            <div class="rooms__header" data-reveal>
+                <div>
+                    <span class="pill-label">Ubytovani</span>
+                    <h2 class="h2">Kde budete spat</h2>
+                </div>
+                <a href="ubytovani.html" class="link-arrow">Vsechny pokoje <span>&rarr;</span></a>
+            </div>
+            <div class="rooms__grid">
+                <div class="room-card" data-reveal>
+                    <div class="room-card__image">
+                        <img src="img/foto_3.jpg" alt="Pokoj" loading="lazy">
+                        <div class="room-card__image-overlay">
+                            <span>Vice &rarr;</span>
+                        </div>
+                    </div>
+                    <div class="room-card__body">
+                        <span class="pill-label">Dvoulůžkový</span>
+                        <h3 class="h3">Dvoulůžkový pokoj</h3>
+                        <p>Pohodlný pokoj s manželskou postelí · vlastní koupelna · Wi-Fi</p>
+                        <a href="kontakt.html" class="room-card__link">Rezervovat <span>&rarr;</span></a>
+                    </div>
+                </div>
+                <div class="room-card" data-reveal data-delay="0.12">
+                    <div class="room-card__image">
+                        <img src="img/foto_4.jpg" alt="Apartman" loading="lazy">
+                        <div class="room-card__image-overlay">
+                            <span>Vice &rarr;</span>
+                        </div>
+                    </div>
+                    <div class="room-card__body">
+                        <span class="pill-label">Jednolůžkový</span>
+                        <h3 class="h3">Jednolůžkový pokoj</h3>
+                        <p>Útulný pokoj pro jednoho · vlastní koupelna · Wi-Fi</p>
+                        <a href="kontakt.html" class="room-card__link">Rezervovat <span>&rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <div class="marquee__inner">
+            <span class="marquee__item">Rodinný penzion</span>
+            <span class="marquee__sep">&#10022;</span>
+            <span class="marquee__item">Osobní přístup</span>
+            <span class="marquee__sep">&#10022;</span>
+            <span class="marquee__item">Pohodlné pokoje</span>
+            <span class="marquee__sep">&#10022;</span>
+            <span class="marquee__item">Srdečné přijetí</span>
+            <span class="marquee__sep">&#10022;</span>
+        </div>
+    </div>
+
+    <!-- GALLERY PREVIEW -->
+    <section class="gallery-preview">
+        <div class="container">
+            <div class="gallery-preview__header" data-reveal>
+                <div>
+                    <span class="pill-label">Galerie</span>
+                    <h2 class="h2">Nahlednete k&nbsp;nam</h2>
+                </div>
+                <a href="galerie.html" class="link-arrow">Cela galerie <span>&rarr;</span></a>
+            </div>
+            <div class="gallery-preview__grid">
+                <div class="gallery-preview__item gallery-preview__item--tall" data-reveal>
+                    <img src="img/foto_1.jpg" alt="Penzion Královské lázně, Poděbrady" loading="lazy">
+                    <span class="gallery-preview__caption">Exterier</span>
+                </div>
+                <div class="gallery-preview__item gallery-preview__item--short" data-reveal data-delay="0.1">
+                    <img src="img/foto_6.jpg" alt="Penzion Královské lázně, Poděbrady" loading="lazy">
+                    <span class="gallery-preview__caption">Interier</span>
+                </div>
+                <div class="gallery-preview__item gallery-preview__item--mid" data-reveal data-delay="0.2">
+                    <img src="img/foto_7.jpg" alt="Penzion Královské lázně, Poděbrady" loading="lazy">
+                    <span class="gallery-preview__caption">Okoli</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial" data-reveal>
+                <span class="testimonial__mark">&ldquo;</span>
+                <div class="testimonial__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <blockquote class="testimonial__text">
+                    Absolutní spokojenost. Nic nechybělo, naopak — příjemné překvapení na každém kroku.
+                </blockquote>
+                <span class="testimonial__name">— Petr a Jana</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" data-parallax>
+        <div class="cta__media" style="background-image: url('img/foto_7.jpg')" data-parallax-bg></div>
+        <div class="cta__overlay"></div>
+        <div class="cta__content" data-reveal>
+            <span class="pill-label pill-label--light">Váš penzion pro odpočinek</span>
+            <h2 class="cta__title">Zarezervujte si svůj pobyt</h2>
+            <div class="cta__actions">
+                <a href="kontakt.html" class="btn btn--filled" data-magnetic>Poslat poptavku</a>
+                <a href="tel:+420 720 974 910" class="btn btn--outline-light" data-magnetic>Zavolat nam</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT STRIP -->
+    <div class="contact-strip">
+        <div class="contact-strip__item" data-reveal>
+            <span class="pill-label pill-label--muted">Telefon</span>
+            <a href="tel:+420 720 974 910">+420 720 974 910</a>
+        </div>
+        <div class="contact-strip__item" data-reveal data-delay="0.08">
+            <span class="pill-label pill-label--muted">E-mail</span>
+            <a href="mailto:info@kralovskelaznepodebrady.cz">info@kralovskelaznepodebrady.cz</a>
+        </div>
+        <div class="contact-strip__item" data-reveal data-delay="0.16">
+            <span class="pill-label pill-label--muted">Adresa</span>
+            <p>Jřího náměstí 4/5, Poděbrady, 29001</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__ornament">
+                <span class="ornament__line"></span>
+                <span class="ornament__star">&#10022;</span>
+                <span class="ornament__line"></span>
+            </div>
+            <a href="index.html" class="footer__logo">Penzion Královské lázně, Poděbrady</a>
+            <nav class="footer__nav">
+                <a href="index.html">Uvod</a>
+                <a href="ubytovani.html">Ubytovani</a>
+                <a href="galerie.html">Galerie</a>
+                <a href="okoli.html">Okoli</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+            <div class="footer__social">
+                
+                
+                
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Penzion Královské lázně, Poděbrady</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky bar -->
+    <div class="sticky-bar" id="sticky-bar">
+        <div class="sticky-bar__inner">
+            <span class="sticky-bar__name">Penzion Královské lázně, Poděbrady</span>
+            <div class="sticky-bar__actions">
+                <a href="tel:+420 720 974 910" class="sticky-bar__phone">+420 720 974 910</a>
+                <a href="kontakt.html" class="btn btn--filled btn--sm">Rezervovat</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating phone button -->
+    <a href="tel:+420 720 974 910" class="fab" aria-label="Zavolat">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    </a>
+
+    <div class="mobile-cta">
+        <a href="kontakt.html" class="btn btn--filled btn--full">Rezervovat</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
